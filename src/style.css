@@ -39,15 +39,14 @@ h1, h2 {
 }
 
 .tasks__item:last-child {
-    border: 1px solid black
-   
+    border: 1px solid black 
 }
 
 .tasks__item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
+    min-height: 50px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #fff;
@@ -62,7 +61,7 @@ h1, h2 {
 }
 
 .tasks__name {
-    height: 30px;
+    max-width: 278px;
 }
 
 .button {
