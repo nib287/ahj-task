@@ -1,5 +1,7 @@
+body 
 .page {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding: 20px;
     background-image: url('./img/notebook.jpg');
     font-family: Helvetica, sans-serif;
@@ -56,7 +58,7 @@ h1, h2 {
 
 .button {
     width: 30px;
-    height: 30px;
+    height: 20px;
     border-radius: 20px;
     outline: none;
 }
